@@ -37,6 +37,7 @@
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="24sp"
         android:orientation="horizontal"
         app:layout_constraintTop_toBottomOf="@+id/StoreNameTV"
         tools:layout_editor_absoluteX="1dp"

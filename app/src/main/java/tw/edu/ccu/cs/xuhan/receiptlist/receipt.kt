@@ -1,6 +1,7 @@
 package tw.edu.ccu.cs.xuhan.receiptlist
 
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 data class receipt(
     @SerializedName("Date")
@@ -13,4 +14,4 @@ data class receipt(
     val price:Int,
     @SerializedName("Products")
     val products: List<product>
-)
+) : Serializable
