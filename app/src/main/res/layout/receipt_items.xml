@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_height="55sp"
+        android:layout_width="55sp"
+        android:background="@drawable/circle"
+        android:text="尚未\n開獎"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="#fff"
+        />
+
+    <LinearLayout
+        android:paddingLeft="8sp"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:paddingTop="8sp"
+        >
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2024/01/01"
+                />
+            <TextView
+                android:id="@+id/ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WA00010536"
+                android:textStyle="bold"
+                android:paddingLeft="8sp"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:paddingTop="8sp"
+            android:id="@+id/store"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="大潤發"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_gravity="right"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="雲端發票"
+            android:padding="2sp"
+            android:textColor="#0C887D"
+            android:background="@drawable/tags"
+            android:layout_gravity="right"
+            android:layout_margin="8sp"
+            />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TWD 500"
+            android:layout_gravity="right"
+            android:layout_margin="16sp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
