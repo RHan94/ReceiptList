@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/receipt_countTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -29,10 +29,11 @@
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/receipt_priceTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:gravity="center"
             android:text="1000"
             android:textColor="#FF0000"
             android:textSize="16sp"
